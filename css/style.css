@@ -18,7 +18,6 @@ body {
 .container {
     width: 70%;
     margin: auto;
-    /* background-color: lightblue; */
 }
 
 h1 {
@@ -32,4 +31,40 @@ p {
     text-align: center;
     padding-bottom: 50px;
     font-weight: 400;
+}
+
+.col { 
+    color: white;
+    width: calc(100% / 3);
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+img {
+    width: 100px;
+    float: left;
+}
+
+.testo {
+    float: left;
+    width: calc(100% - 100px);
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.card {
+    background-color: black;
+}
+
+.description {
+    font-size: 15px;
+    display: block;
+}
+
+.mail {
+    color: lightblue;
+    font-size: 15px;
 }
