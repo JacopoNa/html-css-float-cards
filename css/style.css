@@ -27,3 +27,9 @@ h1 {
     padding-bottom: 40px;
     color: #ff3366;
 }
+
+p {
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
