@@ -1,0 +1,29 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    /* background-color: lightblue; */
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: #ff3366;
+}
